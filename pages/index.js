@@ -1,18 +1,15 @@
-import Head from 'next/head'
+import siteMetadata from '../data/siteMetadata'
+import { PageSEO } from '../components/SEO'
+import About from './about'
 
 export default function Home() {
   return (
     <div >
-      <Head>
-        <title>Patrick Cash</title>
-        <meta name="description" content="Portfolio for Patrick Cash" />
-      </Head>
+      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
-      <main>
+      <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <About/>
       </main>
-
-      <footer>
-      </footer>
     </div>
   )
 }
