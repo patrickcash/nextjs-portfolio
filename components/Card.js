@@ -18,8 +18,8 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
           </h2>
           <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">{description}</p>
           <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">Built With: {techStack}</p>
-          <div className="flex flex-row justify-between">
-            {demo && (
+          {demo && (
+            <div className="mb-3">
               <Link
                 href={demo}
                 className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -27,8 +27,10 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
               >
                 View Demo
               </Link>
-            )}
-            {github && (
+            </div>
+          )}
+          {github && (
+            <div>
               <Link
                 href={github}
                 className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -36,8 +38,8 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
               >
                 View Code
               </Link>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

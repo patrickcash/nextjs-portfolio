@@ -3,7 +3,7 @@ const projectsData = [
         title: 'Really',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -11,7 +11,7 @@ const projectsData = [
         title: 'Research Wrangler',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -19,15 +19,23 @@ const projectsData = [
         title: 'Point Of Interest App',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
+    },
+    {
+        title: 'Reader',
+        description: 'TODO',
+        techStack: 'TODO',
+        imgSrc: '/static/images/profile.png',
+        github: 'TODO',
+        demo: null
     },
     {
         title: 'NLP Library Comparison',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -35,7 +43,7 @@ const projectsData = [
         title: 'Devcord',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -43,15 +51,15 @@ const projectsData = [
         title: 'Delicious Django',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
-        demo: 'TODO'
+        demo: null
     },
     {
         title: 'React Dashboard',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -59,7 +67,7 @@ const projectsData = [
         title: 'React Admin Dashboard',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -67,7 +75,7 @@ const projectsData = [
         title: 'Tailwind Photo Search',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -75,7 +83,7 @@ const projectsData = [
         title: 'Pixabay Photo Search',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
@@ -83,7 +91,7 @@ const projectsData = [
         title: 'Full Screen Slide Show',
         description: 'TODO',
         techStack: 'TODO',
-        imgSrc: '/static/images/profile.jpeg',
+        imgSrc: '/static/images/profile.png',
         github: 'TODO',
         demo: 'TODO'
     },
