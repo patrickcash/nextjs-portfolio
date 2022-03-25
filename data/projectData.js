@@ -1,98 +1,98 @@
 const projectsData = [
     {
         title: 'Really',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Demo realty site that allows users to view listings and contact the realtors',
+        techStack: 'React and Redux frontend with SASS styling. Django and Django Rest Framework backend.',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/Really',
         demo: 'TODO'
     },
     {
         title: 'Research Wrangler',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Researcher bookmark app that allows users to search for academic publications and bookmark them later',
+        techStack: 'React and Rredux frontend with Bootstrap styling. Django and Django Rest Framework backend.O',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/research-wrangler',
         demo: 'TODO'
     },
     {
         title: 'Point Of Interest App',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'App allows users to store points of interest on a map by selecting the location and adding a title, review and rating',
+        techStack: 'MERN: MondoDB database, Express backend, REact frontend, running in a Node environment. Also uuses MapBox for map UI',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/point-of-interest-app',
         demo: 'TODO'
     },
     {
         title: 'Reader',
         description: 'TODO',
-        techStack: 'TODO',
+        techStack: 'MERN: MongoDB database, Express backend server, React frontend, running in a Node envornment',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/Reader',
         demo: null
     },
     {
         title: 'NLP Library Comparison',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'App compares the output of popular NLP libraries for sentiment analysis, named entity recognition and summarization',
+        techStack: 'Flask with textblob, spacy, vader and gensim python NLP libraries',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/nlp-library-comparison-app',
         demo: 'TODO'
     },
     {
         title: 'Devcord',
-        description: 'TODO',
-        techStack: 'TODO',
-        imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        description: 'Discord inspired chat app',
+        techStack: 'Django with custom CSS',
+        imgSrc: '/static/images/delicious_django.png',
+        github: 'https://github.com/patrickcash/devcord',
         demo: 'TODO'
     },
     {
         title: 'Delicious Django',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'del.icio.us inspired bookmark manager',
+        techStack: 'Django with Bootstrap styling',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/delicious-django',
         demo: null
     },
     {
         title: 'React Dashboard',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Custom build demo dashboard',
+        techStack: 'React app using custom styling and Chart.js',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/react-dashboard',
         demo: 'TODO'
     },
     {
         title: 'React Admin Dashboard',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Demo Dasboard built using REact Admin dashboard library',
+        techStack: 'Reaact app using React Admin library',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/react-admin-dashboard',
         demo: 'TODO'
     },
     {
         title: 'Tailwind Photo Search',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Simple search UI for Pixabay photo service',
+        techStack: 'React app with TailwindCSS styling',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/tailwind-photo-search',
         demo: 'TODO'
     },
     {
         title: 'Pixabay Photo Search',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Simple search UI for Pixabay photo service',
+        techStack: 'Rrereact app with MaterialUI Styling',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/photo-search',
         demo: 'TODO'
     },
     {
         title: 'Full Screen Slide Show',
-        description: 'TODO',
-        techStack: 'TODO',
+        description: 'Simple slideshow that displays iamges full screen with descriptions',
+        techStack: 'Vanilla HTML, Javascript and CSS',
         imgSrc: '/static/images/profile.png',
-        github: 'TODO',
+        github: 'https://github.com/patrickcash/fullscreen-image-slideshow',
         demo: 'TODO'
     },
 ]
