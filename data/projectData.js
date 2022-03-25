@@ -43,7 +43,7 @@ const projectsData = [
         title: 'Devcord',
         description: 'Discord inspired chat app',
         techStack: 'Django with custom CSS',
-        imgSrc: '/static/images/delicious_django.png',
+        imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/devcord',
         demo: 'TODO'
     },
@@ -51,7 +51,7 @@ const projectsData = [
         title: 'Delicious Django',
         description: 'del.icio.us inspired bookmark manager',
         techStack: 'Django with Bootstrap styling',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/delicious_django.png',
         github: 'https://github.com/patrickcash/delicious-django',
         demo: null
     },

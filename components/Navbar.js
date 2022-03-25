@@ -16,7 +16,7 @@ export default function Navbar() {
               {siteMetadata.headerTitle}
           </a>
         </Link>
-        <div>
+        <div className="w-1/3 flex items-center justify-between">
           {navLinks.map((link) => (
             <Link
               key={link.title}
