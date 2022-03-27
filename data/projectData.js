@@ -5,7 +5,7 @@ const projectsData = [
         techStack: 'React and Redux frontend with SASS styling. Django and Django Rest Framework backend.',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/Really',
-        demo: 'TODO'
+        demo: 'https://Really.herokuapp.com/'
     },
     {
         title: 'Research Wrangler',
@@ -13,31 +13,7 @@ const projectsData = [
         techStack: 'React and Rredux frontend with Bootstrap styling. Django and Django Rest Framework backend.O',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/research-wrangler',
-        demo: 'TODO'
-    },
-    {
-        title: 'Point Of Interest App',
-        description: 'App allows users to store points of interest on a map by selecting the location and adding a title, review and rating',
-        techStack: 'MERN: MondoDB database, Express backend, REact frontend, running in a Node environment. Also uuses MapBox for map UI',
-        imgSrc: '/static/images/profile.png',
-        github: 'https://github.com/patrickcash/point-of-interest-app',
-        demo: 'TODO'
-    },
-    {
-        title: 'Reader',
-        description: 'TODO',
-        techStack: 'MERN: MongoDB database, Express backend server, React frontend, running in a Node envornment',
-        imgSrc: '/static/images/profile.png',
-        github: 'https://github.com/patrickcash/Reader',
         demo: null
-    },
-    {
-        title: 'NLP Library Comparison',
-        description: 'App compares the output of popular NLP libraries for sentiment analysis, named entity recognition and summarization',
-        techStack: 'Flask with textblob, spacy, vader and gensim python NLP libraries',
-        imgSrc: '/static/images/profile.png',
-        github: 'https://github.com/patrickcash/nlp-library-comparison-app',
-        demo: 'TODO'
     },
     {
         title: 'Devcord',
@@ -45,7 +21,7 @@ const projectsData = [
         techStack: 'Django with custom CSS',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/devcord',
-        demo: 'TODO'
+        demo: 'https://devcord.herokuapp.com/'
     },
     {
         title: 'Delicious Django',
@@ -56,12 +32,36 @@ const projectsData = [
         demo: null
     },
     {
+        title: 'Point Of Interest App',
+        description: 'App allows users to store points of interest on a map by selecting the location and adding a title, review and rating',
+        techStack: 'MERN: MondoDB database, Express backend, REact frontend, running in a Node environment. Also uuses MapBox for map UI',
+        imgSrc: '/static/images/profile.png',
+        github: 'https://github.com/patrickcash/point-of-interest-app',
+        demo: 'https://point-of-interest-app.herokuapp.com/'
+    },
+    {
+        title: 'Reader',
+        description: 'TODO',
+        techStack: 'MERN: MongoDB database, Express backend server, React frontend, running in a Node envornment',
+        imgSrc: '/static/images/reader.png',
+        github: 'https://github.com/patrickcash/Reader',
+        demo: null
+    },
+    {
+        title: 'NLP Library Comparison',
+        description: 'App compares the output of popular NLP libraries for sentiment analysis, named entity recognition and summarization',
+        techStack: 'Flask with textblob, spacy, vader and gensim python NLP libraries',
+        imgSrc: '/static/images/profile.png',
+        github: 'https://github.com/patrickcash/nlp-library-comparison-app',
+        demo: 'https://nlp-library-comparison-app.herokuapp.com/'
+    },
+    {
         title: 'React Dashboard',
         description: 'Custom build demo dashboard',
         techStack: 'React app using custom styling and Chart.js',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/react-dashboard',
-        demo: 'TODO'
+        demo: 'https://react-dashboard.netlify.app'
     },
     {
         title: 'React Admin Dashboard',
@@ -69,7 +69,7 @@ const projectsData = [
         techStack: 'Reaact app using React Admin library',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/react-admin-dashboard',
-        demo: 'TODO'
+        demo: 'https://react-admin-dashboard.netlify.app'
     },
     {
         title: 'Tailwind Photo Search',
@@ -77,7 +77,7 @@ const projectsData = [
         techStack: 'React app with TailwindCSS styling',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/tailwind-photo-search',
-        demo: 'TODO'
+        demo: 'https://tailwind-photo-search.netlify.app'
     },
     {
         title: 'Pixabay Photo Search',
@@ -85,15 +85,15 @@ const projectsData = [
         techStack: 'Rrereact app with MaterialUI Styling',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/photo-search',
-        demo: 'TODO'
+        demo: 'https://pixabay-photo-search.netlify.app'
     },
     {
         title: 'Full Screen Slide Show',
         description: 'Simple slideshow that displays iamges full screen with descriptions',
         techStack: 'Vanilla HTML, Javascript and CSS',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/full_screen_slide_show.png',
         github: 'https://github.com/patrickcash/fullscreen-image-slideshow',
-        demo: 'TODO'
+        demo: 'https://fullscreen-slide-show.netlify.app/'
     },
 ]
 
