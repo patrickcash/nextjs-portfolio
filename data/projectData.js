@@ -59,7 +59,7 @@ const projectsData = [
         title: 'React Dashboard',
         description: 'Custom build demo dashboard',
         techStack: 'React app using custom styling and Chart.js',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/react_dashboard.png',
         github: 'https://github.com/patrickcash/react-dashboard',
         demo: 'https://react-dashboard-pc.netlify.app'
     },
@@ -69,13 +69,13 @@ const projectsData = [
         techStack: 'Reaact app using React Admin library',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/react-admin-dashboard',
-        demo: 'https://react-admin-dashboard-pc.netlify.app'
+        demo: null
     },
     {
         title: 'Tailwind Photo Search',
         description: 'Simple search UI for Pixabay photo service',
         techStack: 'React app with TailwindCSS styling',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/tailwind_photo_search.png',
         github: 'https://github.com/patrickcash/tailwind-photo-search',
         demo: 'https://tailwind-photo-search.netlify.app'
     },
@@ -83,7 +83,7 @@ const projectsData = [
         title: 'Pixabay Photo Search',
         description: 'Simple search UI for Pixabay photo service',
         techStack: 'Rrereact app with MaterialUI Styling',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/photo_search.png',
         github: 'https://github.com/patrickcash/photo-search',
         demo: 'https://pixabay-photo-search.netlify.app'
     },
