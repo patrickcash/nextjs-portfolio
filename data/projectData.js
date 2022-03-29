@@ -61,7 +61,7 @@ const projectsData = [
         techStack: 'React app using custom styling and Chart.js',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/react-dashboard',
-        demo: 'https://react-dashboard.netlify.app'
+        demo: 'https://react-dashboard-pc.netlify.app'
     },
     {
         title: 'React Admin Dashboard',
@@ -69,7 +69,7 @@ const projectsData = [
         techStack: 'Reaact app using React Admin library',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/react-admin-dashboard',
-        demo: 'https://react-admin-dashboard.netlify.app'
+        demo: 'https://react-admin-dashboard-pc.netlify.app'
     },
     {
         title: 'Tailwind Photo Search',
