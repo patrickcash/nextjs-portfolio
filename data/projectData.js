@@ -5,7 +5,7 @@ const projectsData = [
         techStack: 'React and Redux frontend with SASS styling. Django and Django Rest Framework backend.',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/Really',
-        demo: 'https://Really.herokuapp.com/'
+        demo: 'https://really-pc.herokuapp.com/'
     },
     {
         title: 'Research Wrangler',
@@ -21,7 +21,7 @@ const projectsData = [
         techStack: 'Django with custom CSS',
         imgSrc: '/static/images/profile.png',
         github: 'https://github.com/patrickcash/devcord',
-        demo: 'https://devcord.herokuapp.com/'
+        demo: 'https://devcord-pc.herokuapp.com/'
     },
     {
         title: 'Delicious Django',
