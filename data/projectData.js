@@ -11,7 +11,7 @@ const projectsData = [
         title: 'Research Wrangler',
         description: 'Researcher bookmark app that allows users to search for academic publications and bookmark them later',
         techStack: 'React and Rredux frontend with Bootstrap styling. Django and Django Rest Framework backend.O',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/research_wrangler.png',
         github: 'https://github.com/patrickcash/research-wrangler',
         demo: null
     },
@@ -67,7 +67,7 @@ const projectsData = [
         title: 'React Admin Dashboard',
         description: 'Demo Dasboard built using REact Admin dashboard library',
         techStack: 'Reaact app using React Admin library',
-        imgSrc: '/static/images/profile.png',
+        imgSrc: '/static/images/react_admin_dashboard.png',
         github: 'https://github.com/patrickcash/react-admin-dashboard',
         demo: null
     },
