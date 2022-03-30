@@ -82,7 +82,7 @@ const projectsData = [
     {
         title: 'Pixabay Photo Search',
         description: 'Simple search UI for Pixabay photo service',
-        techStack: 'Rrereact app with MaterialUI Styling',
+        techStack: 'React app with MaterialUI Styling',
         imgSrc: '/static/images/photo_search.png',
         github: 'https://github.com/patrickcash/photo-search',
         demo: 'https://pixabay-photo-search.netlify.app'
