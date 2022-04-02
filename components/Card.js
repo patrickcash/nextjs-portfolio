@@ -18,17 +18,6 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
           </h2>
           <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">{description}</p>
           <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">Built With: {techStack}</p>
-          {demo && (
-            <div className="mb-3">
-              <Link
-                href={demo}
-                className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                aria-label={`Link to ${title} demo`}
-              >
-                View Demo
-              </Link>
-            </div>
-          )}
           {github && (
             <div>
               <Link
@@ -36,7 +25,18 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
                 className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 aria-label={`Link to ${title} github`}
               >
-                View Code
+                Github
+              </Link>
+            </div>
+          )}
+          {demo && (
+            <div className="mb-3">
+              <Link
+                href={demo}
+                className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label={`Link to ${title} demo`}
+              >
+                Demo
               </Link>
             </div>
           )}

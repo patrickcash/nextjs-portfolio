@@ -12,11 +12,8 @@ export default function About() {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              I am a freelance Full Stack Developer working primarily with the React ecosystem for the front end and Django\Flask or 
-              Express in the backend.
-            </p>
-            <p>
-              This is my portfolio where you can see some of my public demo projects.
+              I am a freelance Full Stack Developer working primarily with the React ecosystem for the front end and Python (Django\Flask) or 
+              Node (Express) in the backend.
             </p>
           </div>
         </div>
