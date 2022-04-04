@@ -29,7 +29,7 @@ const projectsData = [
         techStack: 'React and Redux frontend with Sass styling. Django and Django Rest Framework backend.',
         imgSrc: '/static/images/really.png',
         github: 'https://github.com/patrickcash/Really',
-        demo: null
+        demo: 'https://really-pc.herokuapp.com/'
     },
     {
         title: 'React Dashboard',
