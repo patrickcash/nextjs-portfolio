@@ -8,14 +8,6 @@ const projectsData = [
         demo: 'https://point-of-interest-app.herokuapp.com/'
     },
     {
-        title: 'Tailwind Photo Search',
-        description: 'Simple search UI for Pixabay photo service',
-        techStack: 'React app with TailwindCSS styling',
-        imgSrc: '/static/images/tailwind_photo_search.png',
-        github: 'https://github.com/patrickcash/tailwind-photo-search',
-        demo: 'https://tailwind-photo-search.netlify.app'
-    },
-    {
         title: 'Devcord',
         description: 'Discord inspired chat app',
         techStack: 'Django with custom CSS',
@@ -32,12 +24,28 @@ const projectsData = [
         demo: 'https://really-pc.herokuapp.com/'
     },
     {
+        title: 'Tailwind Photo Search',
+        description: 'Simple search UI for Pixabay photo service',
+        techStack: 'React app with TailwindCSS styling',
+        imgSrc: '/static/images/tailwind_photo_search.png',
+        github: 'https://github.com/patrickcash/tailwind-photo-search',
+        demo: 'https://tailwind-photo-search.netlify.app'
+    },
+    {
         title: 'React Dashboard',
         description: 'Custom built demo dashboard',
         techStack: 'React app using custom styling and Chart.js',
         imgSrc: '/static/images/react_dashboard.png',
         github: 'https://github.com/patrickcash/react-dashboard',
         demo: 'https://react-dashboard-pc.netlify.app'
+    },
+    {
+        title: 'Chatbot',
+        description: 'Chatbot using the chatterbot library and their predefined corpus',
+        techStack: 'React frontend with the React Chatbot Kit library. Flask backend with the Chatterbot library',
+        imgSrc: '/static/images/chatbot.png',
+        github: 'https://github.com/patrickcash/chatbot',
+        demo: null
     },
     {
         title: 'NLP Library Comparison',
@@ -69,14 +77,6 @@ const projectsData = [
         techStack: 'MERN: MongoDB database, Express backend server, React frontend, running in a Node envornment',
         imgSrc: '/static/images/reader.png',
         github: 'https://github.com/patrickcash/Reader',
-        demo: null
-    },
-    {
-        title: 'Chatbot',
-        description: 'Chatbot using the chatterbot library and their predefined corpus',
-        techStack: 'React frontend with the React Chatbot Kit library. Flask backend with the Chatterbot library',
-        imgSrc: '/static/images/chatbot.png',
-        github: 'https://github.com/patrickcash/chatbot',
         demo: null
     },
     {
