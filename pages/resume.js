@@ -41,7 +41,7 @@ export default function Resume() {
             </div>
         </div>
         <div>
-          <h1 className="mb-4 text-4xl text-gray-700 dark:text-gray-100 font-bold">Education</h1>
+          <h1 className="mt-6 mb-4 text-4xl text-gray-700 dark:text-gray-100 font-bold">Education</h1>
           <ul>
             {educationData.map((education, i) => (
             <li key={`education_${i}`} className="mb-4">
