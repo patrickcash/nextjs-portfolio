@@ -8,20 +8,20 @@ const projectsData = [
         demo: 'https://point-of-interest-app.herokuapp.com/'
     },
     {
-        title: 'Devcord',
-        description: 'Discord inspired chat app',
-        techStack: 'Django with custom CSS',
-        imgSrc: '/static/images/devcord.png',
-        github: 'https://github.com/patrickcash/devcord',
-        demo: 'https://devcord-pc.herokuapp.com/'
-    },
-    {
         title: 'Really',
         description: 'Demo realty site that allows users to view listings, search by criteria such as number of bedrooms, bathrooms, sqft, etc. and contact the realtors',
         techStack: 'React and Redux frontend with Sass styling. Django and Django Rest Framework backend.',
         imgSrc: '/static/images/really.png',
         github: 'https://github.com/patrickcash/Really',
         demo: 'https://really-pc.herokuapp.com/'
+    },
+    {
+        title: 'Devcord',
+        description: 'Discord inspired chat app',
+        techStack: 'Django with custom CSS',
+        imgSrc: '/static/images/devcord.png',
+        github: 'https://github.com/patrickcash/devcord',
+        demo: 'https://devcord-pc.herokuapp.com/'
     },
     {
         title: 'Tailwind Photo Search',
