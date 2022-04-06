@@ -72,11 +72,11 @@ const projectsData = [
         demo: null
     },
     {
-        title: 'React Admin Dashboard',
-        description: 'Demo Dashboard',
-        techStack: 'React dashboard app using React Admin library',
-        imgSrc: '/static/images/react_admin_dashboard.png',
-        github: 'https://github.com/patrickcash/react-admin-dashboard',
+        title: 'Chatbot',
+        description: 'Chatbot using the chatterbot library and their predefined corpus',
+        techStack: 'React frontend with the React Chatbot Kit library. Flask backend with the Chatterbot library',
+        imgSrc: '/static/images/chatbot.png',
+        github: 'https://github.com/patrickcash/chatbot',
         demo: null
     },
     {
