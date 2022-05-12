@@ -7,7 +7,7 @@ export default function Home() {
     <div >
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
-      <main className="max-w-4xl mx-auto mt-16 antialiased">
+      <main className="max-w-4xl mx-auto antialiased">
         <About/>
       </main>
     </div>

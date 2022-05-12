@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from "next/image"
-import profile from "../public/static/images/profile.png"
 
 export default function About() {
   return (
@@ -12,21 +10,13 @@ export default function About() {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              I am a freelance Full Stack Developer working primarily with the React ecosystem for the front end and Python (Django\Flask) or 
-              Node (Express) in the backend.
+              I am a freelance Full Stack Developer. I specilize in front end development for data driven applications, 
+              specifically with Artificial Intelligence and Machine Learning features.
+            </p>
+            <p className="mb-4">
+              I work primarily with the React ecosystem for the front end and Python (Django\Flask) or Node (Express) in the back end.
             </p>
           </div>
-        </div>
-        <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
-            <Image
-                src={profile}
-                alt="Profile"
-                priority={true}
-                className="rounded-full"
-                width={250}
-                height={250}
-                placeholder="blur"
-            />
         </div>
       </div>
     </div>

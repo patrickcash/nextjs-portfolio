@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <div className="flex flex-col justify-between h-screen">
       <ThemeProvider attribute="class">
         <Navbar />
-        <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <main className="max-w-4xl mx-auto antialiased">
           <Component {...pageProps} />
         </main>
         <Footer />

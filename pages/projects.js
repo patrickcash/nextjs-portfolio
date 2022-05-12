@@ -1,9 +1,15 @@
+import { useState } from 'react'
+
 import siteMetadata from '../data/siteMetadata'
 import projectsData from '../data/projectData'
+import techStackData from '../data/techStackData'
 import Card from '../components/Card'
 import { PageSEO } from '../components/SEO'
 
+
 export default function Projects() {
+  const [filter, setFilter] = useState('');
+
   return (
     <>
       <PageSEO title={`Projects - ${siteMetadata.author}`} description={siteMetadata.description} />
@@ -14,9 +20,15 @@ export default function Projects() {
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">Demo projects I have built</p>
         </div>
-        <div className="container py-12">
-          <div className="flex flex-wrap -m-4">
-            {projectsData.map((project) => (
+        <div className="container">
+          <div className="flex flex-wrap">
+            <span key={`all`} className="mr-2 my-1 rounded-full border px-3 text-sm py-2 font-medium bg-gray-200 dark:bg-black cursor-pointer" onClick={(e) => setFilter('')}>All Projects</span>  
+            {techStackData.map((tech, i) => (
+              <span key={`tech_${i}`} className="mr-2 my-1 rounded-full border px-3 text-sm py-2 font-medium bg-gray-200 dark:bg-black cursor-pointer" onClick={(e) => setFilter(tech.name)}>{tech.name}</span>
+            ))}
+          </div>
+          <div className="flex flex-wrap m-4">
+            {projectsData.map((project) => project.techStack.includes(filter) && (
               <Card
                 key={project.title}
                 title={project.title}
