@@ -8,12 +8,12 @@ const projectsData = [
         demo: 'https://tailwind-photo-search.netlify.app'
     },
     {
-        title: 'React Dashboard',
-        description: 'Custom built demo dashboard',
-        techStack: 'Front End: React app using custom styling and Chart.js',
-        imgSrc: '/static/images/react_dashboard.png',
-        github: 'https://github.com/patrickcash/react-dashboard',
-        demo: 'https://react-dashboard-pc.netlify.app'
+        title: 'Material UI Dashboard',
+        description: 'Material UI demo dashboard',
+        techStack: 'Front End: React app using MaterialUI styling and Nivo.js charts',
+        imgSrc: '/static/images/materialui_dashboard.png',
+        github: 'https://github.com/patrickcash/materialui-dashboard',
+        demo: 'https://materialui-dashboard-pc.netlify.app/'
     },
     {
         title: 'Pixabay Photo Search',
@@ -64,6 +64,14 @@ const projectsData = [
         demo: null
     },
     {
+        title: 'React Dashboard',
+        description: 'Custom built demo dashboard',
+        techStack: 'Front End: React app using custom styling and Chart.js',
+        imgSrc: '/static/images/react_dashboard.png',
+        github: 'https://github.com/patrickcash/react-dashboard',
+        demo: 'https://react-dashboard-pc.netlify.app'
+    },
+    {
         title: 'Research Wrangler',
         description: 'Researcher bookmark app that allows users to search for academic publications and bookmark them later',
         techStack: 'Full Stack: React and Redux frontend with Bootstrap styling. Django and Django Rest Framework backend with PostgreSQL database.',
@@ -94,6 +102,14 @@ const projectsData = [
         imgSrc: '/static/images/full_screen_slide_show.png',
         github: 'https://github.com/patrickcash/fullscreen-image-slideshow',
         demo: 'https://fullscreen-slide-show.netlify.app/'
+    },
+    {
+        title: 'This site',
+        description: 'Custom built demo dashboard',
+        techStack: 'Front End: Next.js app using TailwindCSS styling',
+        imgSrc: '/static/images/patrickcash_link.png',
+        github: 'https://github.com/patrickcash/nextjs-portfolio',
+        demo: 'https://www.patrickcash.link/'
     },
 ]
 

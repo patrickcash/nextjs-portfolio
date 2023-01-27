@@ -27,6 +27,15 @@ const techStackData = [
         name: 'Sass'
     },
     {
+        name: 'Chart.js'
+    },
+    {
+        name: 'Nivo.js'
+    },
+    {
+        name: 'Next.js'
+    },
+    {
         name: 'Express'
     },
     {
