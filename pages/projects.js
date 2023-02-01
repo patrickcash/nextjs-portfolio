@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import * as ga from '../lib/ga'
 import siteMetadata from '../data/siteMetadata'
 import projectsData from '../data/projectData'
 import techStackData from '../data/techStackData'

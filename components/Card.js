@@ -25,6 +25,10 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
               <div className="mr-3">
                 <Link
                   href={github}
+                  onClick={() => {ga.event({
+                    action: `${title} Github Click`,
+                    params : {}
+                  })}}
                   className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                   aria-label={`Link to ${title} github`}
                 >
@@ -36,6 +40,10 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
               <div>
                 <Link
                   href={demo}
+                  onClick={() => {ga.event({
+                    action: `${title} Demo Click`,
+                    params : {}
+                  })}}
                   className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                   aria-label={`Link to ${title} demo`}
                 >
