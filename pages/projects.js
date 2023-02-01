@@ -18,7 +18,9 @@ export default function Projects() {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Projects
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">Demo projects I have built</p>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">The client work I have done in the past is all internal to the client&apos;s company or behind a paywall. 
+          So I have created the demo applications below to demonstrate the technologies, frameworks and libraries I have experience with and have used for client work. 
+          The fullstack demos are running on Heroku&apos;s eco tier so they can take up to 30 seconds for initial load but will run at normal speed after that.</p>
         </div>
         <div className="container">
           <div className="flex flex-wrap">

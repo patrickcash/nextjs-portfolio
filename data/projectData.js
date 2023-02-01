@@ -1,19 +1,19 @@
 const projectsData = [
     {
-        title: 'Tailwind Photo Search',
-        description: 'Simple search UI for Pixabay photo service',
-        techStack: 'Front End: React app with TailwindCSS styling',
-        imgSrc: '/static/images/tailwind_photo_search.png',
-        github: 'https://github.com/patrickcash/tailwind-photo-search',
-        demo: 'https://tailwind-photo-search.netlify.app'
-    },
-    {
         title: 'Material UI Dashboard',
         description: 'Material UI demo dashboard',
         techStack: 'Front End: React app using MaterialUI styling and Nivo.js charts',
         imgSrc: '/static/images/materialui_dashboard.png',
         github: 'https://github.com/patrickcash/materialui-dashboard',
         demo: 'https://materialui-dashboard-pc.netlify.app/'
+    },
+    {
+        title: 'Book Mark',
+        description: 'MERN app that allows usrs to bookmark their favorite boots, includes search by title text and tags',
+        techStack: 'Full Stack MERN: MongoDB database, Express backend, React with Redux frontend, running in a Node environment, using MaterialUI styling ',
+        imgSrc: '/static/images/bookmark.png',
+        github: 'https://github.com/patrickcash/book-mark',
+        demo: 'https://bookmark-pc.herokuapp.com/'
     },
     {
         title: 'Pixabay Photo Search',
@@ -29,7 +29,7 @@ const projectsData = [
         techStack: 'Full Stack MERN: MongoDB database, Express backend, React frontend, running in a Node environment. Also uses MapBox for map UI',
         imgSrc: '/static/images/point_of_interest_app.png',
         github: 'https://github.com/patrickcash/point-of-interest-app',
-        demo: null
+        demo: 'https://poi-pc.herokuapp.com/'
     },
     {
         title: 'Really',
@@ -37,23 +37,23 @@ const projectsData = [
         techStack: 'Full Stack: React and Redux frontend with Sass styling. Django and Django Rest Framework backend with PostgreSQL database.',
         imgSrc: '/static/images/really.png',
         github: 'https://github.com/patrickcash/Really',
-        demo: null
+        demo: 'https://really-pc.herokuapp.com/'
     },
     {
         title: 'Devcord',
-        description: 'Discord inspired chat app',
+        description: 'Discord inspired chat app for software developers',
         techStack: 'Full Stack: Django with custom CSS and PostgreSQL database',
         imgSrc: '/static/images/devcord.png',
         github: 'https://github.com/patrickcash/devcord',
-        demo: null
+        demo: 'https://devcord.herokuapp.com/'
     },
     {
-        title: 'Chatbot',
-        description: 'Chatbot using the chatterbot library and their predefined corpus',
-        techStack: 'Full Stack: React frontend with the React Chatbot Kit library. Flask backend with the Chatterbot NLP library',
-        imgSrc: '/static/images/chatbot.png',
-        github: 'https://github.com/patrickcash/chatbot',
-        demo: null
+        title: 'Tailwind Photo Search',
+        description: 'Simple search UI for Pixabay photo service',
+        techStack: 'Front End: React app with TailwindCSS styling',
+        imgSrc: '/static/images/tailwind_photo_search.png',
+        github: 'https://github.com/patrickcash/tailwind-photo-search',
+        demo: 'https://tailwind-photo-search.netlify.app'
     },
     {
         title: 'NLP Library Comparison',
@@ -61,6 +61,14 @@ const projectsData = [
         techStack: 'Full Stack: Flask app with Bootstap styling. Uses TextBlob(NLTK), SpaCy, VADER and Gensim python NLP libraries',
         imgSrc: '/static/images/nlp_library_comparison_app.png',
         github: 'https://github.com/patrickcash/nlp-library-comparison-app',
+        demo: 'https://nlp-library-comparison.herokuapp.com/'
+    },
+    {
+        title: 'Chatbot',
+        description: 'Chatbot using the chatterbot library and their predefined corpus',
+        techStack: 'Full Stack: React frontend with the React Chatbot Kit library. Flask backend with the Chatterbot NLP library',
+        imgSrc: '/static/images/chatbot.png',
+        github: 'https://github.com/patrickcash/chatbot',
         demo: null
     },
     {
@@ -88,14 +96,6 @@ const projectsData = [
         demo: null
     },
     {
-        title: 'Reader',
-        description: 'Minimalist RSS reader app',
-        techStack: 'Full Stack MERN: MongoDB database, Express backend server, React frontend, running in a Node envornment',
-        imgSrc: '/static/images/reader.png',
-        github: 'https://github.com/patrickcash/Reader',
-        demo: null
-    },
-    {
         title: 'Full Screen Slide Show',
         description: 'Simple slideshow that displays images full screen with descriptions',
         techStack: 'Front End: Vanilla HTML, Javascript and CSS',
@@ -105,7 +105,7 @@ const projectsData = [
     },
     {
         title: 'This site',
-        description: 'Custom built demo dashboard',
+        description: 'The portfolio site you are currently viewing',
         techStack: 'Front End: Next.js app using TailwindCSS styling',
         imgSrc: '/static/images/patrickcash_link.png',
         github: 'https://github.com/patrickcash/nextjs-portfolio',
