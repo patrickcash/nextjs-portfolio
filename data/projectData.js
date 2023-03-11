@@ -96,20 +96,36 @@ const projectsData = [
         demo: null
     },
     {
-        title: 'Full Screen Slide Show',
-        description: 'Simple slideshow that displays images full screen with descriptions',
-        techStack: 'Front End: Vanilla HTML, Javascript and CSS',
-        imgSrc: '/static/images/full_screen_slide_show.png',
-        github: 'https://github.com/patrickcash/fullscreen-image-slideshow',
-        demo: 'https://fullscreen-slide-show.netlify.app/'
-    },
-    {
         title: 'This site',
         description: 'The portfolio site you are currently viewing',
         techStack: 'Front End: Next.js app using TailwindCSS styling',
         imgSrc: '/static/images/patrickcash_link.png',
         github: 'https://github.com/patrickcash/nextjs-portfolio',
         demo: 'https://www.patrickcash.link/'
+    },
+    {
+        title: 'Marketing Copy Generator',
+        description: 'Application that takes some inputs and uses ChatGPT to generate marketing copy',
+        techStack: 'Front End: Next.js app that uses ChatGPT API',
+        imgSrc: '/static/images/nextjs_marketing_copy_generator.png',
+        github: 'https://github.com/patrickcash/nextjs-chatgpt',
+        demo: 'https://nextjs-chatgpt-pc.netlify.app/'
+    },
+    {
+        title: 'Weather App',
+        description: 'Mobile application that displays current weather and a forecast for the next 5 days',
+        techStack: 'Front End: React Native using the OpenWeatrher API',
+        imgSrc: '/static/images/react_native_weather_app.png',
+        github: 'https://github.com/patrickcash/react-native-weather-app',
+        demo: null
+    },
+    {
+        title: 'Review Generator',
+        description: 'Mobile application that takes some inputs and uses ChatGPT to generate a review',
+        techStack: 'Front End: React Native app with Native Base styling / components that uses ChatGPT API',
+        imgSrc: '/static/images/react_native_review_generator.png',
+        github: 'https://github.com/patrickcash/react-native-chatpgt',
+        demo: null
     },
 ]
 

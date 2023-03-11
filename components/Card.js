@@ -8,7 +8,7 @@ export default function Card({ title, description, techStack, imgSrc, demo, gith
         <Image
           alt={title}
           src={imgSrc}
-          className="object-cover object-center lg:h-48 md:h-36"
+          className="object-contain object-center bg-gray-200 lg:h-48 md:h-36"
           width={544}
           height={306}
         />

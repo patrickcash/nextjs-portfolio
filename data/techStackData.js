@@ -9,6 +9,9 @@ const techStackData = [
         name: 'React'
     },
     {
+        name: 'React Native'
+    },
+    {
         name: 'Redux'
     },
     {
@@ -22,6 +25,9 @@ const techStackData = [
     },
     {
         name: 'TailwindCSS'
+    },
+    {
+        name: 'Native Base'
     },
     {
         name: 'Sass'
@@ -58,6 +64,9 @@ const techStackData = [
     },
     {
         name: 'NLP'
+    },
+    {
+        name: 'ChatGPT'
     },
 ]
 
